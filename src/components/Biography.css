@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Prata&display=swap');
+
+.bio-container{
+    display: flex;
+    padding-top: 5vh;
+    max-width: 75vw;
+    border-top: 1px solid black;
+}
+
+img {
+    height: 40vh;
+    margin-right: 2em;
+    box-shadow: -10px 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.description {
+    max-width: 35vw;
+    margin-right: 5vw;
+}
+
+.description h2 {
+    font-family: 'Prata', serif;
+    color: rgb(183, 76, 6);
+}
+
+.description p {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: rgb(86, 85, 85);
+}
+
+.personal-info h3 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1em;
+    letter-spacing: .2em;
+}
+
+.personal-info ul {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: .75em;
+    list-style: none;
+    padding-left: 0;
+    line-height: 2;
+}
+
+.personal-info ul li {
+    font-weight: 700;
+}
+
+.personal-info ul span {
+    font-weight: 400;
+}
+
+.personal-info ul a {
+    text-decoration: underline;
+    color: black;
+}

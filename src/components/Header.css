@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+
+header {
+    font-family: 'Domine', serif;
+    color: #094974;
+    max-width: 60vw;
+    margin-bottom: 10vh;
+}
